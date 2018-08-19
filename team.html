@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="class.css">
+
+<title>TEAM</title>
+<link rel="icon" type="image/gif/png" href="icon.jpg">
+
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<nav class="rr-bar rr-black rr-text-cyan">
+ 	<font face="Comic sans ms"><a href="home.html" class="rr-button rr-bar-item">Home</a>
+	<a href="help.html" class="rr-button rr-bar-item">Help</a>
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSegdxfq_LWKcLZ6IuK9KKuR_n5SOlXQ8pjmOAA49JmxZljTew/viewform" class="rr-button rr-bar-item">Contact</a>
+	<a href="https://1drv.ms/u/s!AiFT_8UzfVHdmBSz13W0q6i26pVN" class="rr-button rr-bar-item">Download</a></font>
+</nav>
+
+<section class="rr-bar rr-cyan">
+	<h1><font face="Broadway">Team</font></h1>
+</section>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="manisha.jpg" alt="MSS :)" style="width:50%"></center>
+	<div class="container">
+        <center><h2>Manisha S Soneja</h2></center>
+        <center><p class="title">Documenter</p></center>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <center><img src="rakshit.jpg" alt="RV :)" style="width:50%"></center>
+      <div class="container">
+         <center><h2>Rakshit Vahi</h2></center>
+         <center><p class="title">Team Lead</p></center>
+       	</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+       <center><img src="rahulj.jpeg" alt="RJ :)" style="width:43%"></center>
+      <div class="container">
+         <center><h2>Rahul Jana</h2></center>
+         <center><p class="title">Web Developer</p></center>
+       	</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <center><img src="rahuly.jpg" alt="RY :)" style="width:50%"></center>
+      <div class="container">
+         <center><h2>Rahul Yedida</h2></center>
+         <center><p class="title">Coder</p></center>
+      	</div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <center><img src="rahulr.jpg" alt="RRN :)" style="width:42%"></center>
+      <div class="container">
+         <center><h2>Rahul Reddy</h2></center>
+         <center><p class="title">Coder</p></center>
+      	</div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <center><img src="rohith.jpg" alt="RR :)" style="width:50%"></center>
+      <div class="container">
+         <center><h2>Rohith Raj</h2></center>
+         <center><p class="title">Documenter</p></center>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <center><img src="ram.jpg" alt="RRR :)" style="width:37%"></center>
+      <div class="container">
+         <center><h2>Ram Roshan R</h2></center>
+        <center> <p class="title">Documenter</p></center>
+      	</div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <center><img src="ryan.jpg" alt="RD :)" style="width:50%"></center>
+      <div class="container">
+         <center><h2>Ryan Dsouza</h2></center>
+         <center><p class="title">Designer</p></center>
+	</div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<section class="rr-container rr-center " style="max-with:600px">
+<h2 class="rr-wide">BUG ASSASSINS</h2>
+  <p class="rr-opacity"><i>developers</i></p>
+</section>
+
+<!-- Footer -->
+<footer class="rr-container rr-padding-10 rr-center rr-black">
+ 	<p class="rr-medium">
+	<p class="rr-opacity">Powered by <i>RJ&RV</i> </p>
+  	</p>
+</footer>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
